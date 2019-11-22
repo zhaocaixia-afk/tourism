@@ -1,0 +1,103 @@
+body{
+    background-color: #efefef;
+}
+.introduce{
+    width: 888px;
+    height: 690px;
+    background-color: white;
+    margin: 20px 0 50px 7%;
+    padding: 0 20px;
+    position: relative;
+}
+.introduce_title{
+    line-height: 42px;
+    border-bottom: 1px solid #999999;
+    font-size: 22px;
+    color: #ff9600;
+}
+.introduceImg{
+    width: 850px;
+    height: 483px;
+    margin-top: 20px;
+}
+.introduce_text{
+    text-indent: 32px;
+    color: #bcbcbc;
+    font-size: 14px;
+    line-height: 25px;
+}
+/*加入我们*/
+.left_container{
+    width: 306px;
+    height: 336px;
+    background-color: white;
+    top: 0;
+    position: absolute;
+    left: 900px;
+    padding: 0 2%;
+}
+.add_our{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.more{
+    font-size: 14px;
+    white-space: nowrap;
+    color: #868686;
+}
+.title{
+    font-size: 20px;
+    color: #ff9600;
+}
+.moreImg{
+    margin-left: 5px;
+    width: 9px;
+    height: 7px;
+}
+.addImg{
+    width: 264px;
+    height: 129px;
+}
+.add_list{
+    margin-top: 10px;
+}
+.add_list>li{
+    display: flex;
+    line-height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.add_list>li>p:first-of-type{
+    color: #797979;
+}
+.add_list>li>p:last-of-type{
+    color: #a1a1a1;
+}
+.rightImg{
+    width: 9px;
+    height: 13px;
+}
+/*右边的第二块区域*/
+.second{
+    width: 306px;
+    height: 250px;
+    background-color: white;
+    top: 350px;
+    position: absolute;
+    left: 900px;
+    padding: 0 2%;
+}
+.second>li{
+    padding-right: 10%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.smlImg{
+    width: 20px;
+    height: 20px;
+    margin-right: 5%;
+}

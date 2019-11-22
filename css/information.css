@@ -1,0 +1,257 @@
+body{
+    background-color: #efefef;
+}
+main{
+    width: 74%;
+    height: auto;
+    background-color: white;
+    margin: 10px 13%;
+    padding: 15px 0 0 10px;
+    position: relative;
+}
+/*目的地搜索框*/
+.mdd_search{
+    width: 250px;
+    height: 35px;
+    border: 1px solid #bcbcbc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.zixunlocationImg{
+    width: 26px;
+    height: 27px;
+}
+.mdd_search>input{
+    width: 150px;
+    height: 33px;
+    border: none;
+    text-align: right;
+}
+/*搜索框下面的三个列表*/
+.city_list{
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.city_title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #666666;
+}
+.city_title>img{
+    width: 32px;
+    height: 32px;
+}
+.city_item_container>li{
+    float: left;
+    line-height: 25px;
+    margin-right:4%;
+    font-size: 12px;
+    color: #8e9394;
+}
+.city_item_container>li>span{
+    color: #ffdacc;
+}
+/*橙色搜索框*/
+.big_search{
+    width: 65%;
+    height: 45px;
+    border: 1px solid #ff9500;
+    position: absolute;
+    right: 5%;
+    top: 30px;
+    display: flex;
+    align-items: center;
+}
+.zixunSearchImg{
+    width: 25px;
+    height: 25px;
+}
+.big_search>input[type=text]{
+    width: 56%;
+    height: 43px;
+    border: none;
+    font-size: 20px;
+    color: #757575;
+    outline: none;
+}
+.zixun_serch_smltitle{
+    font-size: 12px;
+    white-space: nowrap;
+    margin-right: 5%;
+    color: #999999;
+}
+.big_search>input[type=search]{
+    width: 20%;
+    height: 100%;
+    border: none;
+    background-color: #ff9600;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+/*图片*/
+.titleImg{
+    position: absolute;
+    right: 5%;
+    top: 75px;
+    width: 650px;
+    height: 270px;
+    background: url("../images/zixun_03.png") no-repeat 0 0;
+    margin-top: 10px;
+}
+/*周边热门*/
+.hot_title{
+    margin-top: 20px;
+    width: 97%;
+    height: 50px;
+    border-bottom: 1px solid #999999;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+.hot{
+    font-size: 25px;
+    color: #ffd1a3;
+    margin-right: 2%;
+}
+.hot_list{
+    display: flex;
+    margin-right: 49%;
+}
+.hot_list>li{
+    white-space: nowrap;
+    margin: 0 6%;
+    color: #78af79;
+}
+.hot_list>li[class=hot_color]{
+    background-color: #51af53;
+    color: #ffffff;
+}
+.more_text{
+    color: #bcbcbc;
+}
+.moreImg{
+    width: 9px;
+    height: 7px;
+    margin-left: 1%;
+}
+/*资讯热门*/
+.zixunhotImg{
+    width: 187px;
+    height: 416px;
+    background: url("../images/zixun_hot.png") no-repeat 0 0;
+    margin: 15px 0;
+    position: relative;
+}
+.zixunhot_list{
+    position: absolute;
+    top:195px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 5% 0 5%;
+}
+.zixunhot_item{
+    line-height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    width: 48%;
+    height: 35px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+/*故宫的列表*/
+.gugong_list{
+    position: absolute;
+    right: 5%;
+    bottom: 16px;
+    width: 72%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gugong_item{
+    display: flex;
+    flex-direction: column;
+}
+.gugongImg{
+    width: 170px;
+    height: 124px;
+}
+.gugong_title{
+    font-size: 20px;
+}
+.gugong_smltitle{
+    font-size: 12px;
+}
+.sell_color{
+    color: #ff895a;
+    font-weight: bold;
+}
+.gugong_line{
+    text-decoration: line-through;
+    margin-left: 5%;
+}
+/*当季特卖*/
+.now_sell{
+    height: 300px;
+    padding-top: 10px;
+}
+.now_sell>.hot_title{
+    justify-content: space-between;
+    margin-left: 0;
+    margin-top: 0;
+}
+.now_sell>.hot_title>div{
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+.now_sell .more_text{
+    margin-right: 10%;
+}
+/*当季特卖列表*/
+.now_list{
+    width: 95%;
+    height: auto;
+    margin: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.now_item{
+    width: 226px;
+    display: flex;
+    flex-direction: column;
+}
+.nowsellImg{
+    width: 226px;
+    height: 148px;
+}
+.nowhot_opt{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.nowhot_color{
+    color: #fe8824;
+    font-size: 20px;
+}
+.nowhot_opt button{
+    margin-left: 25%;
+    height: 25px;
+    background-color: #fe8824;
+    color: white;
+    border: none;
+    width: 30%;
+    border-radius: 5px;
+}

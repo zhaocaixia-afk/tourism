@@ -1,0 +1,87 @@
+body{
+    background-color: #efefef;
+}
+.center{
+    width: 800px;
+    height: auto;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px 2%;
+    position: relative;
+}
+/*搜索框*/
+.search_container{
+    width: 400px;
+    height: 42px;
+    border: 1px solid #ff9400;
+    display: flex;
+    align-items: center;
+}
+.serchImg{
+    width: 17px;
+    height: 17px;
+}
+.search_container>input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+.search_container>button{
+    height: 42px;
+    width: 83px;
+    border: none;
+    background-color: #ff9600;
+    color: white;
+    font-size: 20px;
+}
+.scity_list{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    display: flex;
+}
+.scity_list>li{
+    line-height: 42px;
+    margin: 0 3%;
+    white-space: nowrap;
+}
+.scity_list>li>span{
+    background-color: #50bb71;
+    color: white;
+}
+.moreImg{
+    width: 9px;
+    height: 7px;
+}
+/*六张图片区域*/
+.six_img{
+    margin-top: 20px;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2%;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.sixImg{
+    width: 220px;
+    height: 150px;
+}
+/*页数的区域*/
+.yeshu{
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+}
+.yeshu>li{
+    background-color: #bcbcbc;
+    color: white;
+    margin: 0 2%;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.yeshu>.current{
+    background-color: #ff9600;
+}

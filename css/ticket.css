@@ -1,0 +1,262 @@
+body{
+    background-color: #efefef;
+}
+.yellow_container{
+    width: 100%;
+    height: 330px;
+    background-color: #ffe900;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 13% 0 13%;
+}
+.ticket_pre{
+    width: 640px;
+    height: 315px;
+    border: 3px solid #76bd97;
+    padding: 10px 10px 0 10px;
+}
+.yellowImg{
+    width: 272px;
+    height: 291px;
+}
+.ticket_title{
+    font-size: 30px;
+}
+.ticket_smltitle{
+    line-height: 40px;
+}
+.ticket_sml_color{
+    color: #999999;
+}
+.sml_title{
+    font-weight: bold;
+    margin: 0 2%;
+}
+.ticketsmlImg{
+    width: 12px;
+    height: 15px;
+    margin-left: 50%;
+}
+/*蓝色区域*/
+.ticket_blue{
+    width: 100%;
+    height: auto;
+    background-color: #f5fcfc;
+    padding: 10px 10px 0 10px;
+}
+.four_input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.input_item{
+    line-height: 30px;
+    width: 41%;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: 1px solid #999999;
+    margin: 10px 0;
+    white-space: nowrap;
+    justify-content: space-between;
+    background-color: white;
+}
+.input_item>input{
+    height: 28px;
+    border: none;
+    outline: none;
+}
+.sp_input{
+    width: 62%;
+}
+.inputImg{
+    width: 18px;
+    height: 24px;
+}
+.calendarImg{
+    width: 22px;
+    height: 23px;
+}
+.changeImg{
+    position: absolute;
+    width: 22px;
+    height: 55px;
+    top: 20px;
+    left: 41%;
+    background: url("../images/airline_change.png") no-repeat 0 0;
+}
+.blue_bottom{
+    display: flex;
+    margin-top: 20px;
+    height: 68px;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.blue_bottom_sml{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+}
+.provement{
+    display: flex;
+    align-items: center;
+}
+.provementImg{
+    width: 14px;
+    height: 18px;
+}
+.blue_bottom>input{
+    width: 20%;
+    height: 40px;
+    background-color: #ff5622;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: 7%;
+    border: none;
+}
+/*灰色区域*/
+.gray_container{
+    width: 100%;
+    height: auto;
+    padding: 10px 0 0 6%;
+    position: relative;
+}
+/*三张图片*/
+.three_title_container{
+    width: 75%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    padding: 0 18%;
+    justify-content: space-between;
+    align-items: center;
+}
+.center_three{
+    padding: 0 5%;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+.three_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+}
+.threeImg{
+    width: 106px;
+    height: 106px;
+}
+/*服务推荐*/
+.server_container{
+    margin-top: 10px;
+    height: 250px;
+    width: 75%;
+    background-color: white;
+    padding: 10px 2% 0 2%;
+}
+.ticket_title_server{
+    font-size: 30px;
+    color: #ffb254;
+    margin-bottom: 20px;
+}
+.server_list{
+    display: flex;
+    justify-content: space-around;
+}
+.server_list>img{
+    width: 272px;
+    height: 170px;
+}
+/*国际港澳台航线*/
+.airplay_title_container{
+    margin-top: 10px;
+    height: auto;
+    width: 75%;
+    padding: 0 0 0 2%;
+    display: flex;
+    align-items: center;
+}
+.returnImg{
+    width: 198px;
+    height: 59px;
+    margin: 0 1%;
+}
+.airplay_title_container>input{
+    width: 12%;
+}
+.ticket_city_list{
+    display: flex;
+    margin-left: 2%;
+}
+.tcity_item{
+    margin:0 2%;
+    white-space: nowrap;
+}
+.tcity_item>span{
+    background-color: #28d0b6;
+    color: white;
+}
+/*飞机航班列表*/
+.air_list_container{
+    width: 75%;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2% 0 3%;
+    font-size: 20px;
+    align-content: space-between;
+}
+.air_one{
+    width: 50%;
+}
+.air_one>li{
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+}
+.airImg{
+    width: 27px;
+    height: 8px;
+}
+.air_time{
+    margin: 0 2% 0 4%;
+}
+.air_money{
+    color: #ff664d;
+}
+/*角标区域*/
+.clone_underliner{
+    width: 75%;
+    height: 30px;
+    background-color: #f7ffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10% 0 7%;
+    align-items: center;
+    font-size: 12px;
+}
+.clone_underliner sup{
+    color: #f958ae;
+}
+/*右边区域*/
+.aside_container{
+    width: 235px;
+    height: 380px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.bookImg{
+    width: 226px;
+    height: 181px;
+}

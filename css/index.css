@@ -1,0 +1,180 @@
+.banner{
+    width: 100%;
+    height: 400px;
+    background: url("../images/banner_01.png") no-repeat 0 0;
+    position: relative;
+}
+.banner>form{
+    width: 620px;
+    height: 110px;
+    background-color: #262828;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -305px;
+    color: white;
+    padding-left: 2%;
+}
+label{
+    margin-right: 5%;
+    line-height: 50px;
+}
+.banner input[type=text]{
+    width: 510px;
+    height: 45px;
+    font-size: 16px;
+    text-indent: 16px;
+}
+.banner input[type=search]{
+    width: 44px;
+    height: 44px;
+    background: url("../images/serch.png") no-repeat 0 0;
+    border: none;
+    margin-left: 2%;
+}
+/*main区域*/
+main{
+    width: 100%;
+    height: 1280px;
+    background-color: #ededed;
+    padding: 10px 13%;
+}
+.main_white{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+.logo_title{
+    width: 260px;
+    height: 260px;
+}
+/*热门咨询css*/
+.host_quest{
+    width: 240px;
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    line-height: 50px;
+    font-size: 24px;
+    color: #999999;
+}
+/*热门咨询下面的列表*/
+.host_list{
+    position: absolute;
+    top: 310px;
+    left: 10px;
+    width: 250px;
+}
+.host_item{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+.host_item img{
+    width: 44px;
+    height: 44px;
+    margin-right: 3%;
+}
+.host_text{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+.host_color{
+    color: #ff991f;
+}
+/*爆款热卖*/
+.sell_title{
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+/*热卖爆款下面的三张图片*/
+.sell_list{
+    width: 70%;
+    height: 210px;
+    position: absolute;
+    top: 50px;
+    left: 285px;
+    display: flex;
+    justify-content: space-between;
+}
+.sell_item{
+    display: flex;
+    flex-direction: column;
+}
+.sellImg{
+    width: 220px;
+    height: 135px;
+}
+.sell_money{
+    font-size: 20px;
+    text-align: right;
+    color: #ff9900;
+}
+/*热门动态*/
+.host_now{
+    position: absolute;
+    top: 260px;
+    left: 300px;
+}
+/*热门动态下面的列表*/
+.now_list{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    left: 285px;
+    top: 310px;
+    display: flex;
+    flex-direction: column;
+}
+.now_item{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 10px;
+}
+.now_titleImg{
+    width: 220px;
+    height: 180px;
+}
+.now_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2%;
+}
+.big_title{
+    font-size: 18px;
+}
+.small_title{
+    font-size: 16px;
+    color: #999999;
+}
+.now_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    align-items: center;
+}
+.now_bottom>span{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.guojia{
+    margin: 0 5%;
+}
+.localImg{
+    width: 18px;
+    height: 24px;
+}
+.dingImg{
+    width: 26px;
+    height: 20px;
+    margin-left: 5%;
+}

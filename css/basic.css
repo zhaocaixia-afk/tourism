@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+/*头部*/
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    background-color: white;
+}
+.header_logo{
+    width: 170px;
+    height: 47px;
+    margin-right: 8%;
+}
+.header_nav{
+    white-space: nowrap;
+    margin-right: 20%;
+    font-weight: bold;
+}
+.header_nav>a{
+    margin-right: 10%;
+    padding: 20px 2%;
+}
+.header_nav>a:hover{
+    background-color: #ff9f00;
+}
+.login_register{
+    display: flex;
+    align-items: center;
+}
+.iconImg{
+    white-space: nowrap;
+    margin-right: 10%;
+}
+.iconImg>a{
+    margin-right: 5%;
+}
+.iconImg img{
+    width: 30px;
+    height: 30px;
+}
+.login_register>p{
+    white-space: nowrap;
+    color: #ff9f00;
+}
+/*底部区域*/
+.footer{
+    width: 100%;
+    height: 320px;
+    background-color: #3c3c3c;
+    display: flex;
+    color: #b0bcbc;
+    padding-left: 15%;
+    font-size: 14px;
+    position: relative;
+}
+li{
+    list-style: none;
+}
+.footer span{
+    color: #ff9900;
+}
+.footer p{
+    margin: 20px 0;
+}
+.footer li{
+    line-height: 30px;
+}
+.footer_left{
+    margin-right: 8%;
+}
+.footer_center{
+    margin-right: 10%;
+}
+.footer_right{
+    width: 20%;
+}
+.footer_right>.right_list>li{
+    margin-right: 25%;
+    float: left;
+}
+.footer_right>p{
+    text-indent: 55px;
+}
+.right_list span{
+    display: block;
+    text-indent: 32px;
+}
+.erweimaImg{
+    width: 127px;
+    height: 127px;
+    background: url("../images/scan.png") no-repeat 0 0;
+    margin: 70px 0 0 5%;
+}
+/*footer区域*/
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

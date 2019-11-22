@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ticket</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/ticket.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <img src="images/logo.png" class="header_logo">
+        <nav class="header_nav">
+            <a href="index.html">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+            <a href="information.html">旅游咨询</a>
+            <a href="ticket.html">机票预订</a>
+            <a href="scenery.html">风景欣赏</a>
+            <a href="introduce.html">公司简介</a>
+        </nav>
+        <div class="login_register">
+            <ul class="iconImg">
+                <a href="javascript:;"><img src="images/chartlink_01.png"></a>
+                <a href="javascript:;"><img src="images/chartlink_02.png"></a>
+                <a href="javascript:;"><img src="images/chartlink_03.png"></a>
+            </ul>
+            <p>
+                <span>登录</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <span>注册</span>
+            </p>
+        </div>
+    </header>
+<!--    黄色区域-->
+    <div class="yellow_container">
+        <div class="ticket_pre">
+            <p class="ticket_title">机票预订</p>
+            <p class="ticket_smltitle">
+                <span class="sml_title">国际机标</span>
+                <span class="ticket_sml_color">国际.港澳台机票</span>
+                <img src="images/airline_mybooking.png" class="ticketsmlImg">
+                <span class="ticket_sml_color">我的订单</span>
+            </p>
+            <div class="ticket_blue">
+                <p>
+                    <label for="sigln"><input checked type="radio" name="come" id="sigln">单程</label>
+                    <label for="double"><input type="radio" name="come" id="double">往返</label>
+                </p>
+                <div class="four_input">
+                    <div class="input_item">
+                        从
+                        <input type="text" placeholder="成都">
+                        <img src="images/airline_phone.png" class="inputImg">
+                        <img src="images/airline_location_small.png" class="inputImg">
+                    </div>
+                    <div class="input_item">
+                        出发
+                        <input placeholder="" class="sp_input" type="datetime-local">
+                        后天
+                        <img src="images/airline_%20calendar.png" class="calendarImg">
+                    </div>
+                    <div class="input_item">
+                        到
+                        <input placeholder="输入国家/地区/机场" type="text">
+                        <img src="images/airline_phone.png" class="inputImg">
+                        <img src="images/airline_location_small.png" class="inputImg">
+                    </div>
+                    <div class="input_item">
+                        往返
+                        <input type="text">
+                        <img src="images/airline_%20calendar.png" class="calendarImg">
+                    </div>
+                    <div class="changeImg"></div>
+                </div>
+                <div class="blue_bottom">
+                    <p class="blue_bottom_sml">
+                        <span>24小时客服电话:95117</span>
+                        <span>海外用户请拨打(8610)82872677</span>
+                    </p>
+                    <p class="provement">
+                        <img src="images/airline_provement.png" class="provementImg">
+                        <span>全程保障,去哪儿都放心</span>
+                    </p>
+                    <input type="button" value="搜索">
+                </div>
+            </div>
+        </div>
+        <img src="images/airline_03.png" class="yellowImg">
+    </div>
+<!--    三张图片-->
+    <div class="gray_container">
+        <div class="three_title_container">
+            <li class="three_item">
+                <img src="images/airline_iconpic01.png" class="threeImg">
+                <p>全天服务</p>
+                <p>7x24小时可以预定</p>
+            </li>
+            <li class="center_three three_item">
+                <img src="images/airline_iconpic01.png" class="threeImg">
+                <p>全天服务</p>
+                <p>7x24小时可以预定</p>
+            </li>
+            <li class="three_item">
+                <img src="images/airline_iconpic01.png" class="threeImg">
+                <p>全天服务</p>
+                <p>7x24小时可以预定</p>
+            </li>
+        </div>
+        <!--    服务推荐-->
+        <div class="server_container">
+            <p class="ticket_title_server">服务推荐</p>
+            <div class="server_list">
+                <img src="images/airline_07.png" alt="">
+                <img src="images/airline_09.png" alt="">
+                <img src="images/airline_11.png" alt="">
+            </div>
+        </div>
+<!--        国际港澳台航线-->
+        <div class="airplay_title_container">
+            <p class="ticket_title_server">国际.港澳台航线</p>
+            <img src="images/return.png" class="returnImg">
+            <input type="text" list="from" placeholder="从成都出发">
+            <datalist id="from">
+                <option value="从成都出发"></option>
+            </datalist>
+            <input type="datetime-local">
+            <ul class="ticket_city_list">
+                <li class="tcity_item"><span>热门</span></li>
+                <li class="tcity_item">亚洲</li>
+                <li class="tcity_item">美洲</li>
+                <li class="tcity_item">欧洲</li>
+                <li class="tcity_item">非洲/大洋洲</li>
+            </ul>
+        </div>
+<!--        飞机航班列表-->
+        <div class="air_list_container">
+            <div class="air_one">
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+            </div>
+            <div class="air_one">
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+            </div>
+            <div class="air_one">
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+            </div>
+            <div class="air_one">
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">洛杉矶</p>
+                    <p class="air_time">10:29<img src="images/airline_arrow01.png" class="airImg">11:15</p>
+                    <p class="air_money">￥900</p>
+                </li>
+            </div>
+        </div>
+<!--        角标区域-->
+        <div class="clone_underliner">
+            <p>订阅低价提醒</p>
+            <p>更多国际低价机票<sup>快来抢！</sup></p>
+        </div>
+<!--        国内航线-->
+        <div class="airplay_title_container">
+            <p class="ticket_title_server">国内航线</p>
+            <ul class="ticket_city_list">
+                <li class="tcity_item"><span>热门</span></li>
+                <li class="tcity_item">亚洲</li>
+                <li class="tcity_item">美洲</li>
+                <li class="tcity_item">欧洲</li>
+                <li class="tcity_item">非洲/大洋洲</li>
+            </ul>
+        </div>
+        <!--        飞机航班列表-->
+        <div class="air_list_container">
+            <div class="air_one">
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+            </div>
+            <div class="air_one">
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+            </div>
+            <div class="air_one">
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+            </div>
+            <div class="air_one">
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+                <li>
+                    <p>成都<img src="images/airline_arrow01.png" class="airImg">万州</p>
+                    <p class="air_time">6:30&nbsp;&nbsp;1.6折</p>
+                    <p class="air_money">￥900</p>
+                </li>
+            </div>
+        </div>
+        <!--        角标区域-->
+        <div class="clone_underliner">
+            <p>折扣说明，经济舱以标准经济舱折扣为基础</p>
+            <p> 更多成都低价机票<sup>快来抢！</sup></p>
+        </div>
+<!--            右边区域-->
+        <div class="aside_container">
+            <img src="images/book-aside1.png" class="bookImg">
+            <img src="images/book-aside2.png" class="bookImg">
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer_left">
+            <p>中国领先的自由行服务台</p>
+            <ul class="left_list">
+                <li>覆盖全球200多个国家和地区</li>
+                <li><span>100,000,000</span>位旅行者</li>
+                <li><span>920,000</span>家国际酒店</li>
+                <li><span>21,000,000</span>真实点评</li>
+                <li><span>382,000,000</span>攻略下载</li>
+                <li><span>中国旅行行业第一部"玩法"</span></li>
+            </ul>
+        </div>
+        <div class="footer_center">
+            <p>关于我们</p>
+            <ul class="center_list">
+                <li>关于行记</li>
+                <li>网络信息侵权通知指引</li>
+                <li>隐私策略</li>
+                <li>服务协议</li>
+                <li>联系我们</li>
+                <li><span>加入源码</span></li>
+            </ul>
+        </div>
+        <div class="footer_right">
+            <p>旅行服务</p>
+            <ul class="right_list">
+                <li>旅行攻略</li>
+                <li>酒店预订</li>
+                <li>旅游特价</li>
+                <li>国际租车</li>
+                <li>旅游问答</li>
+                <li>国际保险</li>
+                <li>旅游指南</li>
+                <li>订火车票</li>
+                <li>旅游资讯</li>
+                <li>app下载</li>
+                <li><span>全球供应商入驻</span></li>
+            </ul>
+        </div>
+        <div class="erweimaImg"></div>
+        <footer>@2020 京ICP备xxxxxx号 京公安备110xxx13401号京ICP证xxxx号</footer>
+    </div>
+</div>
+</body>
+</html>
